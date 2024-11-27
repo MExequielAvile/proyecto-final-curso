@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/form.css" />
+        <script src="scripts/script.js"></script>
+        <title>Formulario de contacto</title>
+    </head>
+    <body>
+        <header class="header" id="inicio">
+            <div class="logo">
+                <h2>Exequiel Avile Fotografía</h2>
+            </div>
+            <div class="link">
+                <a href="index.html">Inicio</a>
+            </div>
+        </header>
+        <main class="title container">
+            <div class="title-txt">
+                <h1>Formulario de contacto</h1>
+                <form class="form-txt">
+                    <div class="inputs1">
+                        <input
+                            type="text"
+                            id="nombre"
+                            placeholder="Nombre"
+                            required
+                        />
+                        <input
+                            type="text"
+                            id="apellido"
+                            placeholder="Apellido"
+                            required
+                        />
+                    </div>
+                    <div class="inputs2">
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Email"
+                            required
+                        />
+                    </div>
+                    <textarea
+                        name="mensaje"
+                        id="mensaje"
+                        placeholder="Escribe tu consulta aqui"
+                        required
+                    ></textarea>
+                </form>
+                <button type="submit" class="btn-contacto" id="btnContacto">
+                    Enviar
+                </button>
+            </div>
+            <div class="title-img"></div>
+        </main>
+        <footer class="footer">
+            <h3>
+                &copy; Copyright 2024 <br />
+                Developed by Exequiel Avile
+            </h3>
+        </footer>
+    </body>
+</html>
